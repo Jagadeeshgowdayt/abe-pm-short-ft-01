@@ -43,11 +43,9 @@ REQST_CHANNEL = int(reqst_channel) if reqst_channel and id_pattern.search(reqst_
 SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(support_chat_id) else None
 NO_RESULTS_MSG = is_enabled((environ.get("NO_RESULTS_MSG", 'True')), True)
 
-# MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "")
-DATABASE_NAME = environ.get('DATABASE_NAME', "")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', '')
-
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://telegram:telegram@telegram.47bqv4x.mongodb.net/?retryWrites=true&w=majority&appName=AtlasApp")
+DATABASE_NAME = environ.get('DATABASE_NAME', "telegram")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'telegram')
 # Others
 IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'False')), False)
 HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', "https://t.me/c/1845700490/3")
