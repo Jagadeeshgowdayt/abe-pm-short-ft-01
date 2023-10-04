@@ -727,4 +727,4 @@ async def check_verification(bot, userid):
             else:
                 return True
         else:
-            return True
+            return True"""
