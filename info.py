@@ -45,7 +45,7 @@ NO_RESULTS_MSG = is_enabled((environ.get("NO_RESULTS_MSG", 'True')), False)
  
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://telegram:telegram@telegram.47bqv4x.mongodb.net/?retryWrites=true&w=majority&appName=AtlasApp")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://telegram:telegram@telegram.khfz75n.mongodb.net/?retryWrites=true&w=majority")
 DATABASE_NAME = environ.get('DATABASE_NAME', "telegram")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'telegram')
 
