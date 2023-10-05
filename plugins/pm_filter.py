@@ -1957,8 +1957,8 @@ async def auto_filter(client, msg, spoll=False):
     remaining_seconds = "{:.2f}".format(time_difference.total_seconds())
     total = await get_search_results(query.message.chat.id, search, offset=offset, filter=True)
      TEMPLATE = settings['template']
-     if imdb:
-         cap = TEMPLATE.format(
+if imdb:
+        cap = TEMPLATE.format(
              query=search,
              title=imdb['title'],
              votes=imdb['votes'],
