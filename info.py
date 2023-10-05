@@ -15,7 +15,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '28556096'))
 API_HASH = environ.get('API_HASH', '5b3db8fd284895b20715edcd85cf1b73')
-BOT_TOKEN = environ.get('BOT_TOKEN',"6511646595:AAHgIfFiP_b9Vf9R77wO-9FkI3UkdfANTNw")# "5965090572:AAEaBQxjFwnaa2_g__n6nLmnKT7kZPq4sVU")
+BOT_TOKEN = environ.get('BOT_TOKEN',"6606149536:AAFnzuGZvXlk5jsQ6ChemRbIM6sPQsL4I6s")# "5965090572:AAEaBQxjFwnaa2_g__n6nLmnKT7kZPq4sVU")
 
 
 # Bot settings
@@ -51,12 +51,12 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'telegram')
 
 # Others
 VERIFY = bool(environ.get('VERIFY', False))
-SHORTLINK_URL2 = environ.get('SHORTLINK_URL', 'gplinks.in')
-SHORTLINK_API2 = environ.get('SHORTLINK_API', '2a49a886827b80ff37f27e546e4624159459e63c')
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'gplinks.in')
-SHORTLINK_API = environ.get('SHORTLINK_API', '2a49a886827b80ff37f27e546e4624159459e63c')
-SECOND_SHORTLINK_URL = environ.get('SECOND_SHORTLINK_URL', 'gplinks.in')
-SECOND_SHORTLINK_API = environ.get('SECOND_SHORTLINK_API', '2a49a886827b80ff37f27e546e4624159459e63c')
+SHORTLINK_URL2 = environ.get('SHORTLINK_URL', 'tnshort.net')
+SHORTLINK_API2 = environ.get('SHORTLINK_API', '29fed53e6c9d0636b2f396a61018aec0634a6b20')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'tnshort.net')
+SHORTLINK_API = environ.get('SHORTLINK_API', '29fed53e6c9d0636b2f396a61018aec0634a6b20')
+SECOND_SHORTLINK_URL = environ.get('SECOND_SHORTLINK_URL', 'tnshort.net')
+SECOND_SHORTLINK_API = environ.get('SECOND_SHORTLINK_API', '29fed53e6c9d0636b2f396a61018aec0634a6b20')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "10")
